@@ -1,0 +1,35 @@
+{
+    "name": "cache-breaker",
+    "version": "0.0.4",
+    "description": "Cache Breaking Tasks",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha test/specs"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MobileCore/cache-breaker-tasks"
+    },
+    "keywords": [
+        "cache",
+        "bust",
+        "break"
+    ],
+    "author": "MobileCore",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/MobileCore/cache-breaker/issues"
+    },
+    "homepage": "https://github.com/MobileCore/cache-breaker",
+    "dependencies": {
+        "lodash": "2.2.1"
+    },
+    "devDependencies": {
+        "chai": "^1.9.1",
+        "mocha": "^1.18.2",
+        "gulp-util": "^2.2.14",
+        "gulp": "^3.6.2",
+        "gulp-jshint": "^1.5.5",
+        "sinon": "^1.9.1"
+    }
+}
